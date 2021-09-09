@@ -15,8 +15,4 @@ print(google.text, '\n')
 
 git = requests.get("https://raw.githubusercontent.com/kingfxj/404Lab1/master/1.py")
 
-f = open('1.py', 'w')
-f.write(git.text)
-f.close()
-
 print('Source code:\n' + git.text)
